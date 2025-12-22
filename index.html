@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Home - Bilal El Mokhtari</title>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar-container">
+    <div class="navbar-left">
+        <span class="navbar-name">Bilal El Mokhtari</span>
+        <ul class="navbar">
+            <li><a href="#home">Accueil</a></li>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#projects">Projets</a></li>
+        </ul>
+    </div>
+    <ul class="icons">
+        <li><a href="https://github.com/LosawI" target="_blank" title="GitHub"><img src="assets/icons/github.svg" alt="GitHub"></a></li>
+        <li><a href="https://www.linkedin.com/in/bilal-el-mokhtari/" target="_blank" title="LinkedIn"><img src="assets/icons/linkedin.svg" alt="LinkedIn"></a></li>
+        <li><a href="mailto:elmokhtaribilal@gmail.com" target="_blank" title="Mail"><img src="assets/icons/mail.svg" alt="Mail"></a></li>
+    </ul>
+</nav>
+
+<!-- Main Content -->
+<div class="fullpage-container">
+    
+    <!-- Section Home / Profile -->
+    <section class="fullpage-section" id="home">
+        <div class="profile">
+            <h1 class="nom">Bilal El Mokhtari</h1>
+            <p><strong>Je suis étudiant en Informatique, actuellement à l'Université Paris-Saclay - IUT d'Orsay</strong></p>
+            <p>Je suis passionné par la résolution de problèmes et la réflexion dans le développement de projets</p>
+            <button onclick="window.location.href='mailto:elmokhtaribilal@gmail.com'" class="contact-button">Me contacter</button>
+        </div>
+    </section>
+
+    <!-- Section About -->
+    <section class="fullpage-section" id="about">
+        <section class="about-container">
+            <div class="about-content">
+                <h2 class="title">À propos de moi</h2>
+                
+                <p>
+                    Je suis actuellement <strong>étudiant en 2ème année de</strong><strong class="to-green"> BUT Informatique</strong> 
+                    à l'<strong class="to-green">Université Paris-Saclay - IUT d'Orsay.</strong>
+                </p>
+
+                <p class="skills">Voici quelques technologies que je maîtrise :</p>
+                <ul class="liste">
+                    <li><strong>Langages :</strong> Python, Java, C/C++</li>
+                    <li><strong>Développement Web :</strong> HTML, CSS, PHP</li>
+                    <li><strong>Bases de données :</strong> SQL, MySQL, Oracle</li>
+                    <li><strong>Gestion de version :</strong> Git, GitHub</li>
+                </ul>
+
+                <p>En dehors de l'informatique, je regarde beaucoup de sport, notamment le football et le basket-ball. Je vais aussi régulièrement à la salle de sport.</p>
+            </div>
+
+            <div class="image-about">
+                <img src="assets/images/singe-allo-selem.jpg"/>
+            </div>
+        </section>
+    </section>
+
+    <!-- Section Projects -->
+    <section class="fullpage-section" id="projects">
+        <section>
+            <h2 class="section-header">Quelques Projets</h2>
+
+            <!-- FEATURED PROJECTS SLIDER -->
+            <div class="featured-slider-wrapper">
+                <div class="featured-slider" id="slider">
+                    
+                    <!-- Featured Project 1 -->
+                    <div class="featured-card">
+                        <div class="featured-card-bg" style="background-image: url('assets/images/code-game-jam.png');"></div>
+                        <div class="featured-content">
+                            <p class="featured-overline">Projet en vedette</p>
+                            <h3 class="featured-title">Met l'audi à l'infini</h3>
+                            <div class="featured-desc">
+                                Un jeu vidéo développé en équipe de 6 personnes, en 24 heures lors de la Code Game Jam 2024.
+                            </div>
+                            <ul class="featured-tech-list">
+                                <li>C#</li>
+                                <li>Unity</li>
+                            </ul>
+                            <div class="featured-links">
+                                <a href="#"><i class="fab fa-github"></i></a>
+                                <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Featured Project 2 -->
+                    <div class="featured-card">
+                        <div class="featured-card-bg" style="background-image: url('assets/images/ciup.png');"></div>
+                        <div class="featured-content">
+                            <p class="featured-overline">Projet en vedette</p>
+                            <h3 class="featured-title">Logiciel de gestion pour la CIUP (SAE)</h3>
+                            <div class="featured-desc">
+                                Une application Java Swing avancée pour gérer les logements étudiants à la Cité Internationale Universitaire de Paris. Fonctionnalités incluant l'attribution de chambres, les événements et la gestion des logements.
+                            </div>
+                            <ul class="featured-tech-list">
+                                <li>Java (Swing)</li>
+                                <li>Penpot</li>
+                            </ul>
+                            <div class="featured-links">
+                                <a href="#"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Featured Project 3 -->
+                    <div class="featured-card">
+                        <div class="featured-card-bg" style="background-image: url('assets/images/selva-rush.png');"></div>
+                        <div class="featured-content">
+                            <p class="featured-overline">Projet en vedette</p>
+                            <h3 class="featured-title">Site Internet Selva Rush</h3>
+                            <div class="featured-desc">
+                                Un site web complet pour un parc d'attractions fictif, mettant en avant les attractions proposées, moyens de contact et les informations pratiques.
+                            </div>
+                            <ul class="featured-tech-list">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                            </ul>
+                            <div class="featured-links">
+                                <a href="#"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+    
+                <!-- Controls for the Slider -->
+                <div class="slider-controls">
+                    <button class="control-btn" onclick="scrollSlider(-1)">
+                        <i class="fas fa-chevron-left"></i>
+                        <img src="assets/icons/left-arrow.svg" alt="Précédent">
+                    </button>
+                    <button class="control-btn" onclick="scrollSlider(1)">
+                        <i class="fas fa-chevron-right"></i>
+                        <img src="assets/icons/right-arrow.svg" alt="Suivant">
+                    </button>
+                </div>
+            </div>
+
+            <!-- OTHER PROJECTS GRID -->
+            <div class="projects-grid">
+                
+                <!-- Grid Item 1 -->
+                <div class="grid-card">
+                    <header>
+                        <div class="grid-header">
+                            <div class="folder-icon">
+                                <i class="far fa-folder"></i>
+                            </div>
+                            <div class="external-links">
+                                <a href="#"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="grid-title"><a href="#">Configuration réseau (SAE)</a></h3>
+                        <div class="grid-desc">
+                            Configuration d'un réseau virtuel avec Marionnet, incluant SSH, routage et configurations IP.
+                        </div>
+                    </header>
+                    <ul class="grid-tech-list">
+                        <li>Marionnet</li>
+                        <li>SSH</li>
+                        <li>DNS</li>
+                    </ul>
+                </div>
+
+                <!-- Grid Item 2 -->
+                <div class="grid-card">
+                    <header>
+                        <div class="grid-header">
+                            <div class="folder-icon">
+                                <i class="far fa-folder"></i>
+                            </div>
+                            <div class="external-links">
+                                <a href="#"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="grid-title"><a href="#">Projet jeu vidéo 2D</a></h3>
+                        <div class="grid-desc">
+                            Jeu vidéo 2D simple développé en C++ utilisant la bibliothèque SDL.
+                        </div>
+                    </header>
+                    <ul class="grid-tech-list">
+                        <li>C++ (SDL)</li>
+                    </ul>
+                </div>
+
+                <!-- Grid Item 3 -->
+                <div class="grid-card">
+                    <header>
+                        <div class="grid-header">
+                            <div class="folder-icon">
+                                <i class="far fa-folder"></i>
+                            </div>
+                            <div class="external-links">
+                                <a href="#"><i class="fab fa-github"></i></a>
+                                <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="grid-title"><a href="#">Jeu du démineur</a></h3>
+                        <div class="grid-desc">
+                            Jeu de démineur realisé en C# avec le framework WPF, dans le cadre de l'apprentissage des fondamentaux d'IHM.
+                        </div>
+                    </header>
+                    <ul class="grid-tech-list">
+                        <li>Microsoft WPF</li>
+                        <li>C#</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </section>
+</div>
+
+<script>
+    function scrollSlider(direction) {
+        const slider = document.getElementById('slider');
+        const cardWidth = 320;
+        const scrollAmount = direction * cardWidth;
+        
+        slider.scrollBy({
+            top: 0,
+            left: scrollAmount,
+            behavior: 'smooth'
+        });
+    }
+</script>
+
+</body>
+</html>
