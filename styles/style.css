@@ -332,7 +332,7 @@ h2, h3 {
     gap: 15px;
     font-family: monospace;
     font-size: 13px;
-    color: var(--light-slate);
+    color: var(--green);
     margin-bottom: 20px;
 }
 
@@ -464,6 +464,18 @@ h2, h3 {
     font-size: 12px;
     color: var(--light-slate);
     margin-top: auto;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 80px;
+    color: var(--light-slate);
+    font-size: 14px;
 }
 
 @media (max-width: 768px) {
